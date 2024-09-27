@@ -1,0 +1,170 @@
+body{
+    background-color: #eceab6;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    color: black;
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 1.1em;
+    padding: 10px, 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(148, 144, 97);
+}
+
+button:hover{
+    background-color: rgb(202, 196, 129);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(172, 168, 124);
+}
+
+header .msj{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.50em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header a:hover{
+    color: aliceblue;
+}
+
+#medio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.contenido h1{
+    color: rgb(124, 123, 111);
+}
+
+.logo img{
+    max-width: 2500px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+#nuestros-productos{
+    background-color: rgb(112, 110, 88);
+    color: #f7f7f7;
+    text-align: center;
+}
+
+#nuestros-productos h2{
+    margin-top: 0;
+    padding: 50px 50px;
+}
+
+#nuestros-productos .container{
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+#nuestros-productos .opc{
+    padding: 50px;
+    margin: 12px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.opc:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../img/aretes.jpg);
+    
+}
+
+.opc:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../img/manillas.jpg);
+}
+
+.opc:nth-child(3){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../img/collar.jpg);
+}
+
+footer {
+    border-bottom: 2px solid #a79e29ec;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: end;
+}
+
+footer a {
+    text-decoration: none;
+    color: #585757ec;
+}
